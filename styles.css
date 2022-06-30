@@ -1,49 +1,98 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333;
-    background: #a1c3ff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background: #a1c3ff;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 h1,
 h2 {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 .logo {
-    font-weight: 700;
-    font-size: 20px;
-}
-.navbar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    color: antiquewhite;
-}
-
-.navbar ul {
-    display: flex;
-    list-style: none;
-}
-
-.navbar li {
-    margin-left: 20px;
+  font-weight: 700;
+  font-size: x-large;
 }
 
 .container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.navbar {
+  background-color: #333;
+  color: antiquewhite;
+  height: 60px;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar li {
+  margin-left: 20px;
+}
+
+.header {
+  color: #fff;
+  background: #333;
+  min-height: 400px;
+  padding: 30px 0;
+  height: 1px;
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.header img {
+  max-width: 400px;
+  height: auto;
+}
+.header .container {
+  display: flex;
+  height: 100%;
+}
+
+.header .container .subtext {
+  border: 2px;
+  margin-right: 150px;
+  border-style: solid;
+  border-color: red;
+}
+
+.section {
+  background: #fff;
+  text-align: center;
+}
+
+.section .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box img {
+  max-width: 100px;
+  max-height: 100px;
 }
