@@ -85,11 +85,10 @@ h2 {
   height: auto;
 }
 
-.header .container .subtext {
-  border: 2px;
+.header .container .subtext div {
   margin-right: 150px;
-  border-style: solid;
-  border-color: red;
+  line-height: 1.5;
+  padding-bottom: 15px;
 }
 
 button { 
